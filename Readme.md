@@ -1,6 +1,6 @@
 # stMCDI: Masked Conditional Diffusion Model with Graph Neural Network for Spatial Transcriptomics Data Imputation
 
-<img src="C:\Users\DELL\Desktop\stMCDI\model.jpg" style="zoom:25%;" />
+<img src="model.jpg" style="zoom:25%;" />
 
 ## Setup
 
