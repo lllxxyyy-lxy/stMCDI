@@ -1,0 +1,26 @@
+{
+    "train": {
+        "epochs": 10,
+        "batch_size": 128,
+        "lr": 0.0005
+    },
+    "diffusion": {
+        "layers": 4,
+        "channels": 64,
+        "nheads": 4,
+        "diffusion_embedding_dim": 128,
+        "beta_start": 0.0001,
+        "beta_end": 0.5,
+        "num_steps": 150,
+        "schedule": "quad",
+        "mixed": false
+    },
+    "model": {
+        "is_unconditional": 0,
+        "timeemb": 32,
+        "featureemb": 16,
+        "target_strategy": "random",
+        "mixed": false,
+        "test_missing_ratio": 0.2
+    }
+}
